@@ -1,0 +1,62 @@
+{
+	"students": [
+		{
+			"id": 124,
+			"Mobile_no": 8541265478,
+			"Secondary_Mobile_no": 8471256987,
+			"Name": "Bharat",
+			"skillset":
+			 [
+				"Manual_testing",
+				"Automation_testing",
+				"API",
+				"Jenkins",
+				"Restassured"
+			]
+		},
+		{
+			"id": 125,
+			"Mobile_no": 7896214578,
+			"Secondary_Mobile_no": 7451478956,
+			"Name": "Balaji",
+			"skillset":
+			 [
+				"Product_support",
+				"selinum",
+				"playwright",
+				"java",
+				"javascript"
+			]
+		},
+		{
+			"id": 126,
+			"Mobile_no": 7412587495,
+			"secondary_mobile_no": 63214752145,
+			"Name": "Divya",
+			"skillset":
+			[
+				"Api testing",
+				"Playwright testing",
+				"selenium",
+				"Jenkins",
+				"Ci/cd"
+			]
+		},
+		{
+			"id": 127,
+			"Mobile_no": 74125874895,
+			"secondary_mobile_no": 6321444542145,
+			"Name": "Ashwini",
+			"skillset": 
+			[
+				"Api testing",
+				"Playwright testing",
+				"selenium",
+				"Jenkins",
+				"Ci/cd",
+				"restassured",
+				"postman"
+			]
+		}
+	]
+}
