@@ -70,18 +70,19 @@ test('Check API Skill', async () => {
 
 import { test } from '@playwright/test';
 import studentdata from '../students.json';
+let count;
 
 test("students data details" , async () =>
 {
-        for (const students of studentdata.students)
+        for (const details of studentdata.students)   //details varaiable name. //
         {
-            if(students.skillset.includes("selenium"))
+            if(details.skillset.includes("selenium"))
             {
-            console.log(students.Name + " " + "Has selenium skillset");
+           console.log(details.Name + " " + "Has selenium skillset");
             }
             else
             {
-                console.log(students.Name + " " + "Has no selenium skillset");
+                console.log(details.Name + " " + "Has no selenium skillset");
             }
         }
 });
