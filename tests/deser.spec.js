@@ -1,4 +1,4 @@
-/*ONLY MOBILE NUMBER
+//ONLY MOBILE NUMBER
 import { test } from '@playwright/test';
 import employeeData from '../emp.json';
 test('Print Mobile Numbers', async () => {
@@ -10,9 +10,9 @@ test('Print Mobile Numbers', async () => {
     }
 
 });
-*/
 
-/*
+
+
 import { test } from '@playwright/test';
 import employeeData from '../emp.json';
 
@@ -25,9 +25,9 @@ test('Print Name and Secondary Mobile Number', async () => {
     }
 
 });
-*/
 
-/*
+
+
 import { test } from '@playwright/test';
 import employeeData from '../emp.json';
 
@@ -48,24 +48,24 @@ test('Check API Skill', async () => {
     }
 
 });
-*/
 
 
-// import { test } from '@playwright/test';
-// import studentdata from '../students.json';
 
-// test("student data details", async () =>
-// {
-//      for(const students of studentdata.students)
-//      {
-//         if(students.skillset.includes("Api testing"))
-//         {
-//             console.log(students.Name + students.id + " " + "Has Api skills");
-//         }
-//         else
-//             console.log(students.Name + students.id + " "  + "Dont have API skills");
-//      }
-// });
+import { test } from '@playwright/test';
+import studentdata from '../students.json';
+
+test("student data details", async () =>
+{
+     for(const students of studentdata.students)
+     {
+        if(students.skillset.includes("Api testing"))
+        {
+            console.log(students.Name + students.id + " " + "Has Api skills");
+        }
+        else
+            console.log(students.Name + students.id + " "  + "Dont have API skills");
+     }
+});
 
 
 import { test } from '@playwright/test';
