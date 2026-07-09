@@ -70,8 +70,6 @@ test('Check API Skill', async () => {
 
 import { test } from '@playwright/test';
 import studentdata from '../students.json';
-import { ifError } from 'node:assert/strict';
- let count;
 
 test("students data details" , async () =>
 {
